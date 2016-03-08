@@ -1,0 +1,46 @@
+
+/* === NAVBAR === */
+#menu-social {
+	overflow: hidden;
+	padding: 7px 0 0 10px;
+	margin: 0;
+}
+
+#menu-social ul {
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-social ul li {
+    display: inline-block;
+    position: relative;
+    padding-right: 8px;
+}
+
+#menu-social a {
+    color: #888;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-size: 14px; }
+  .navbar-nav a {
+    text-decoration: none; 
+}
+
+
+@media screen and (min-width: 769px){
+	.navbar-left {
+    	float: left !important; 
+	}
+
+	.navbar-right {
+	    float: right !important;
+	    margin-right: -20px;
+	}
+
+	.navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px; } 
+}
